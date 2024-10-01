@@ -1,0 +1,31 @@
+[
+    {
+        "schema_name" : "JobFair",
+        "col_list" : [
+            {
+                "col_name" : "attendees_register",
+                "growth" : {
+                    "avg" : [2011 , 2014],
+                    "exp" : [2015 , 2017],
+                    "log" : [2018 , 2020],
+                    "linear" : [2021 , 2024]
+                },
+                "timeline_col" : "year"
+            }
+        ]
+    },{
+        "schema_name" : "UserAffected",
+        "col_list" : [
+            {
+                "col_name" : "financial_casuality",
+                "growth" : {
+                    "avg" : [2011 , 2014],
+                    "exp" : [2015 , 2017],
+                    "log" : [2018 , 2020],
+                    "linear" : [2021 , 2024]
+                },
+                "timeline_col" : "financial_yr"
+            }
+        ]
+    }
+]
